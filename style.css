@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(50 70 80);
+}
+
+div {
+    font-size: 500px;
+    color: rgb(184, 244, 194);
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    color: rgb(184, 244, 194);
+    text-align: center;
+    text-decoration: overline;
+    text-decoration-style: double;
+    margin-bottom: 0;
+}
+
+span {
+    animation-name: Qassomar;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Qassomar{
+    0%{color: green;}
+    25%{color: chartreuse;}
+    50%{color: brown;}
+    75%{color: blueviolet;}
+    100%{color: gold;}
+}
